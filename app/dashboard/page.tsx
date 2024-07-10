@@ -18,7 +18,7 @@ const DashboardPage = () => {
             {data.user && data.user.image && (
                 <img src={data.user?.image} alt="" />
             )}
-            <p>Welcome {data.user?.name}. Signed In As: </p>
+            <p>Welcome {data.user?.name}. Signed In As:</p>
             <p>{data.user?.email}</p>
             <button onClick={() => signOut()}>Sign out</button>
         </div>
